@@ -21,6 +21,11 @@
 
 }
 
+.enlace:hover{
+  background-color: azure;
+  color: black;
+}
+
 .input-contenido{
   display: flex;
   flex: 1;
@@ -97,7 +102,7 @@
 
 .conten{
   border-image: initial;
-  border: 1px solid blue;
+  
   margin-left: 10px; 
   margin-right: 50px;
   justify-content: center;

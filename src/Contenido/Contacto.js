@@ -16,7 +16,7 @@ function Contacto() {
                 />
 
                 <ComContact enlace='https://www.linkedin.com/in/angel-ricardo-l%C3%B3pez-jim%C3%A9nez-496837132/'
-                    imagen='https://image.flaticon.com/icons/png/512/174/174857.png'
+                    imagen='https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw'
                 />
 
                 <ComContact enlace='https://wa.me/525571717948'
