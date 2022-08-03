@@ -13,11 +13,12 @@ function Navigation() {
             <li className='lista-contenido'><Link to='/Proyectos' className='enlace'>Proyectos</Link></li>
             <li className='lista-contenido'><Link to='/Sobremi' className='enlace'>Sobre mi</Link></li>
             <li className='lista-contenido'><Link to='/Contacto' className='enlace'>Contacto</Link></li>
-            <div className='input-contenido'>
+            {/*<div className='input-contenido'>
                 <input type='text' placeholder='Search'></input>
                 <SearchIcon className='iconSearch'/>
                 
-            </div>
+            </div>*/}
+            
         </ul>
         <PublicRoutes />
       </Router>

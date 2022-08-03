@@ -1,0 +1,83 @@
+.fotoPerfil {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 60px;
+    transition: 2s ease;
+    transform: translateX(100px);
+}
+
+.card:hover .fotoPerfil {
+    transform: translatex(-5px);
+
+    cursor: pointer;
+}
+
+.card {
+
+
+    display: flex;
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-top: 75px;
+
+
+}
+
+.text {
+    width: 200px;
+    height: 200px;
+
+    transition: 2s ease;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.card:hover .text {
+    transform: translatex(5px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.datos {
+    height: 200px;
+    width: 300px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+
+}
+
+.cards {
+
+    max-height: 150vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.titulos {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.Perfilfoto {
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+}

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import ComSobremi from "./ComponentesNav/ComSobremi";
+import ComSobremi from "../ComponentesNav/ComSobremi";
+
 
 
 function Sobremi() {

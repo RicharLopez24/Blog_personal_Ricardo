@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import ComContact from "./ComponentesNav/ComContact";
+import ComContact from "../ComponentesNav/ComContact";
+
 
 
 function Contacto() {
