@@ -6,6 +6,7 @@ import Sobremi from "../Contenido/Views/Sobremi";
 import Home from "../Contenido/Views/Home";
 import { PublicRoute } from "./Routes"
 import Perfil from "../Contenido/Views/Perfil";
+import Estudios from "../Contenido/Views/Estudios";
 //import PublicRoute from "./Routes"
 
 
@@ -16,6 +17,7 @@ const PublicRoutes = () =>{
             <PublicRoute exact path="/Proyectos" component={Proyectos}/>            
             <PublicRoute exact path="/Sobremi" component={Sobremi} />
             <PublicRoute exact path="/Sobremi/Perfil" component={Perfil} />
+            <PublicRoute exact path="/Sobremi/Estudios" component={Estudios} />
             <PublicRoute exact path="/Contacto" component={Contacto} />            
             <PublicRoute path="/**"  component={Home}/>
         </Switch>
