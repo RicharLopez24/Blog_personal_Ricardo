@@ -78,8 +78,10 @@ function Home() {
 
                     </div>
                 </div>
-                <div>
-                    <ReactPlayer url='https://youtu.be/DvV--VTJ414'/>
+                <div className="video">
+                    <ReactPlayer
+                    className='videostyle'
+                    width= '500px' height= '300px' url='https://youtu.be/DvV--VTJ414' controls />
                 </div>
 
             </div>
