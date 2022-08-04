@@ -5,7 +5,7 @@ import uaemex from '../../Image/escudoUaemex.jpeg'
 import memoria from '../../Image/m1.png'
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
-
+import video from '../../Image/Video_memoria.mp4'
 
 function Home() {
     useEffect(() => {
@@ -51,10 +51,10 @@ function Home() {
             </div>
 
             <div className="viewProyect">
-                <label className="titulos">Prgramas realizados</label>
+                <label className="titulos"> Programas realizados</label>
                 <div className="cardProgram">
                     <div className="p1">
-                        <label className="titulos">memoria asociativa</label>
+                        <label className="titulos">Memoria Asociativa</label>
                         <a href="https://github.com/RicharLopez24/MemoriaAsociativa.git"
                             target='_blank' rel='noreferrer'>
                             <img src={memoria}
@@ -68,20 +68,31 @@ function Home() {
                     <div className="cardData">
                         <div className="datosProgram">
                             <p>
-                                En este programa se realizo en la universidad para la materia de sistemas expertos,
-                                en el cual consistia en que atravez de unos patrones de entrada que son capturados
-                                y al ingresar los mismo patrones pero en difernet posicion y con lagunos datos de mas
-                                o datos de menos seran obtenidos de acuerdo con las memorias de meximos y minimos que se realizan
-                                al hacer la obtencion de dichos patrones de entrada
+                                En este programa se realizo en la universidad para 
+                                la materia de sistemas expertos, en el cual consistia
+                                en que atravez de unos patrones de entrada que son capturados
+                                y al ingresar los mismo patrones pero en difernet 
+                                posicion y con lagunos datos de mas o datos de menos 
+                                seran obtenidos de acuerdo con las memorias de meximos
+                                y minimos que se realizan al hacer la obtencion de dichos 
+                                patrones de entrada.                                
+                            </p>
+                            <p>
+                            Puedes acceder al codigo fuente dando clic en la imagen 
+                                de la izquierda
                             </p>
                         </div>
 
                     </div>
                 </div>
                 <div className="video">
+                    <p>
+                        Video explicando un poco de como funciona el programa de memoria asociativa
+                    </p>
                     <ReactPlayer
                     className='videostyle'
-                    width= '500px' height= '300px' url='https://youtu.be/DvV--VTJ414' controls />
+                    width= '600px' height= '400px' 
+                    url={video} controls />
                 </div>
 
             </div>

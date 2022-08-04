@@ -108,8 +108,8 @@
 }
 
 .datosProgram {
-    height: 200px;
-    width: 600px;
+    height: 350px;
+    width: 650px;
     font-size: 25px;
     
     justify-content: center;
@@ -123,12 +123,9 @@
 }
 .video{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    font-size: 25px;
 }
 
-.videostyle{
-    display: flex;
-    width: 500px;
-    height: 300px;
-}
