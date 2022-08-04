@@ -5,7 +5,7 @@ import uaemex from '../../Image/escudoUaemex.jpeg'
 import memoria from '../../Image/m1.png'
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
-import video from '../../Image/Video_memoria.mp4'
+
 
 function Home() {
     useEffect(() => {
@@ -92,7 +92,7 @@ function Home() {
                     <ReactPlayer
                     className='videostyle'
                     width= '600px' height= '400px' 
-                    url={video} controls />
+                    url='https://youtu.be/1qmc405spNk' controls />
                 </div>
 
             </div>
