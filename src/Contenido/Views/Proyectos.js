@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Programs from "../../Componentes/Programs";
 import { DataProgramas } from '../../Componentes/DataPrograms'
 
