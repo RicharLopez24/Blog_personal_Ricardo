@@ -68,17 +68,17 @@ function Home() {
                     <div className="cardData">
                         <div className="datosProgram">
                             <p>
-                                En este programa se realizo en la universidad para 
+                                En este programa se realizo en la universidad para
                                 la materia de sistemas expertos, en el cual consistia
                                 en que atravez de unos patrones de entrada que son capturados
-                                y al ingresar los mismo patrones pero en difernet 
-                                posicion y con lagunos datos de mas o datos de menos 
+                                y al ingresar los mismo patrones pero en difernet
+                                posicion y con lagunos datos de mas o datos de menos
                                 seran obtenidos de acuerdo con las memorias de meximos
-                                y minimos que se realizan al hacer la obtencion de dichos 
-                                patrones de entrada.                                
+                                y minimos que se realizan al hacer la obtencion de dichos
+                                patrones de entrada.
                             </p>
                             <p>
-                            Puedes acceder al codigo fuente dando clic en la imagen 
+                                Puedes acceder al codigo fuente dando clic en la imagen
                                 de la izquierda
                             </p>
                         </div>
@@ -90,11 +90,18 @@ function Home() {
                         Video explicando un poco de como funciona el programa de memoria asociativa
                     </p>
                     <ReactPlayer
-                    className='videostyle'
-                    width= '600px' height= '400px' 
-                    url='https://youtu.be/1qmc405spNk' controls />
+                        className='videostyle'
+                        width='600px' height='400px'
+                        url='https://youtu.be/1qmc405spNk' controls />
                 </div>
 
+            </div>
+            <div>
+                <Link to='/Proyectos'>
+                   
+                        Ver mas programas
+                    
+                </Link>
             </div>
         </div>
     );
