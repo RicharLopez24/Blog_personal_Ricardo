@@ -35,7 +35,7 @@ function Programs({cont}) {
                 </div>
                 <div className="video">
                     <p>
-                        Video explicando un poco de como funciona el programa de memoria asociativa
+                        Video explicando el funcionamiento del programa 
                     </p>
                     <ReactPlayer
                         className='videostyle'

@@ -1,11 +1,21 @@
 import flotante from '../Image/flotante.png'
-import ensamblador from '../Image/ensamblador.png'
 import kmeans from '../Image/kmeans.png'
+import memoria from '../Image/m1.png'
 
 export const DataProgramas = [
     {
 
-        title: 'Numeros Flotantes',
+        title: 'Memoria Asociativa',
+        icon: memoria,
+        linkVideo: 'https://youtu.be/1qmc405spNk',
+        linkGit: 'https://github.com/RicharLopez24/MemoriaAsociativa.git',
+        p1: ' En este programa se realizo en la universidad para la materia de sistemas expertos, en el cual consistia en que atravez de unos patrones de entrada que son capturados y al ingresar los mismo patrones pero en difernet posicion y con lagunos datos de mas o datos de menos seran obtenidos de acuerdo con las memorias de meximos y minimos que se realizan al hacer la obtencion de dichos patrones de entrada.',
+        p2: 'Puedes acceder al codigo fuente dando clic en la imagen de la izquierda',
+
+    },
+    {
+
+        title: 'Numeros Flotantes Estandar IEEE754',
         icon: flotante,
         linkVideo: 'https://youtu.be/DvV--VTJ414',
         linkGit: 'https://github.com/RicharLopez24/Ejemplo-estandar-IEEE754.git',
@@ -15,18 +25,9 @@ export const DataProgramas = [
     },
     {
 
-        title: 'Ensamblador Primer Programa',
-        icon: ensamblador,
-        linkVideo: 'https://youtu.be/ngSZkAmyw1E',
-        linkGit: 'https://github.com/RicharLopez24/interrupcion-por-RB0-en-pic-16f628A.git',
-        p1: 'Este programa se realizo con el lenguaje ensamblador ya que para esto se tiene que escribir muchas lineas de codigo para solo prender un solo led',
-        p2: 'Perso usando este lenguaje nos damos cuenta de como funcionan o como se mueven los datos a tra vez de las computadoras ya que hay que estar checando que todo este bien antes de pasarlo a un circuito en dado caso para prender el led',
-    },
-    {
-
         title: 'Algoritmo de K-means',
         icon: kmeans,
-        linkVideo: 'https://youtu.be/ngSZkAmyw1E',
+        linkVideo: 'https://youtu.be/7jjpKjA4NdE',
         linkGit: 'https://github.com/RicharLopez24/Algoritmo-kmeans.git',
         p1: 'Un pequeño programa donde se puede observar el funcionamiento del algoritmo de k-means ya que esta hecho por puntos y las distancias que hay entre ellos y los atractores',
         p2: 'Para ello se tuvo que tomar la distancia entre ellos con la formula euclidiana y asi determinar a cual le pertenece cada punto ',
