@@ -8,7 +8,7 @@ function Contacto() {
         document.title='Contacto';
     });
     return (
-        <div className='contenido-styled'>
+        <div className='contenido-styled-contac'>
             <h1>Puedes buscarme en:</h1>
 
             <div className='styled-contac'>

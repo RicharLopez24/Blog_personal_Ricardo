@@ -8,7 +8,7 @@ function Sobremi() {
         document.title='Sobre mi';
     });
     return (
-        <div className='contenido-styled'>
+        <div className='contenido-styled-yo'>
             <h1>historia de mi</h1>
             <div className='styled-cuadros'>
                 <ComSobremi titulo='Mis aptitudes' 
