@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import SearchIcon from '@material-ui/icons/Search';
+
 import PublicRoutes from '../Router/PublicRoutes';
 
 function Navigation() {

@@ -96,7 +96,7 @@ function Home() {
                 </div>
 
             </div>
-            <div>
+            <div className="proyectos">
                 <Link to='/Proyectos'>
                    
                         Ver mas programas
