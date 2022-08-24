@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import {HashRouter as Router, Link } from 'react-router-dom';
 
 import PublicRoutes from '../Router/PublicRoutes';
 
