@@ -18,7 +18,13 @@ const PublicRoutes = () =>{
             <PublicRoute exact path="/Sobremi" component={Sobremi} />
             <PublicRoute exact path="/Sobremi/Perfil" component={Perfil} />
             <PublicRoute exact path="/Sobremi/Estudios" component={Estudios} />
-            <PublicRoute exact path="/Contacto" component={Contacto} />            
+            <PublicRoute exact path="/Contacto" component={Contacto} /> 
+            {/**crear las vistas para mostrar la informacion de cada apartado  */}
+            <PublicRoute exact path="/Sobremi/Aptitudes" component={Contacto} /> 
+            <PublicRoute exact path="/Sobremi/Estudios" component={Estudios} /> 
+            <PublicRoute exact path="/Sobremi/Aspiraciones" component={Contacto} /> 
+            <PublicRoute exact path="/Sobremi/Gustos" component={Contacto} /> 
+
             <PublicRoute path="/**"  component={Home}/>
         </Switch>
     )

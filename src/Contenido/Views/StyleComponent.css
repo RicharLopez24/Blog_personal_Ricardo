@@ -1,0 +1,72 @@
+section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+section p {
+    border-image: initial;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+section div {
+    height: 180px;
+    width: 230px;
+    
+    padding: 20px;
+    border-radius: 14px;
+    min-width: 250px;
+    box-shadow: 10px 0px 50px -10px black;
+    margin-left: -40px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+section div:nth-child(1) {
+    background: #136ad5;
+
+}
+
+section div:nth-child(2) {
+    background: #293462;
+
+}
+
+section div:nth-child(3) {
+    background: #764af1;
+
+}
+
+section div:nth-child(4) {
+    background: #f76e11;
+
+}
+
+section div:nth-child(5) {
+    background: #f24a72;
+
+}
+
+section div:hover {
+    transform: translateY(-16px) rotate(3deg);
+}
+
+section div:hover~div {
+    transform: translateX(130px);
+}
+
+.enlace{
+    color: bisque;
+    text-decoration: none;
+}
